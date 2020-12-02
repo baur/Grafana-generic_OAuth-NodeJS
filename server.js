@@ -85,8 +85,6 @@ app.use('/login',(req, res) => {
       <body>
         <div class="login-form">
           <h1>Login Form</h1>
-          
-          
             <form action="/users/login/${state}"  method="post">
                 <input type="text" name="email" placeholder="Email" /><br />
                 <input type="password" name="password" placeholder="Password" /><br />
